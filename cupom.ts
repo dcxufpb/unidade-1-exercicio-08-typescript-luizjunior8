@@ -33,6 +33,7 @@ export function dados_loja_objeto(loja: Loja) {
   let _bairro : String = loja.bairro ? `${loja.bairro} - ` :  ""
 
   let _cep : String = ""
+  
   let _telefone : String = ""
 
   if (loja.cep){
